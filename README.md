@@ -138,10 +138,4 @@ python 2Dpore_simulation.py
 - **Binary Masks**: 8-bit grayscale (0=background, 255=bone/pores)
 - **RGB Overlays**: Color-coded visualizations
 
-## 📧 Contact
-
-For questions, suggestions, or collaborations, please open an issue or contact the development team.
-
----
-
 *Built for biomedical research and porous media analysis at Purdue University*
