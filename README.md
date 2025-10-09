@@ -27,7 +27,6 @@ This project provides a complete pipeline for:
 ### Visualization
 - **Overlay Generation**: Red pore highlighting on original bone images
 - **Multi-format Output**: Binary masks, processed images, and overlay visualizations
-- **Progress Tracking**: Real-time progress bars with tqdm integration
 
 ## 🚀 Installation
 
@@ -128,20 +127,6 @@ python 2Dpore_simulation.py
 4. **Overlap Prevention**: Updates distance map after each pore placement
 5. **Quality Assurance**: Verifies complete containment within bone regions
 
-## 📊 Applications
-
-- **Biomedical Research**: Bone porosity analysis and trabecular structure studies
-- **Material Science**: Porous material characterization and modeling
-- **Medical Imaging**: Automated bone segmentation and analysis
-- **Simulation Studies**: Realistic pore network generation for flow simulations
-
-## 🔮 Future Enhancements
-
-- **3D Cylindrical Pores**: Extension to true 3D pore networks spanning multiple slices
-- **OpenPNM Integration**: Physics-based flow simulations through pore networks
-- **Advanced Metrics**: Porosity, connectivity, and tortuosity calculations
-- **Interactive Visualization**: 3D rendering and manipulation tools
-
 ## 📝 File Formats
 
 ### Input
@@ -152,25 +137,6 @@ python 2Dpore_simulation.py
 - **PNG Images**: All processed and simulated results
 - **Binary Masks**: 8-bit grayscale (0=background, 255=bone/pores)
 - **RGB Overlays**: Color-coded visualizations
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- **PoreSpy**: Excellent porous media analysis toolkit
-- **OpenPNM**: Pore network modeling framework
-- **OpenCV**: Computer vision and image processing capabilities
-- **PyDICOM**: Medical imaging file handling
 
 ## 📧 Contact
 
